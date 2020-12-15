@@ -1,13 +1,25 @@
-.container {
-    margin: 35%;
+body, html {
+  height: 100%;
 }
 
+body {
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(38,33,79,1) 35%, rgba(0,79,113,1) 100%);
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    margin-top: 20px;
+}
+ /*-------------------------------------------------------   Top page circles   */
 
 .circle {
     border-radius: 50%;
     height: 600px;
     width: 600px;
     background-color: blue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: visible;
 }
 
 .circle1 {
@@ -15,18 +27,22 @@
     height: 150px;
     width: 150px;
     background-color: lightblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .circle2 {
     border-radius: 50%;
     height: 250px;
     width: 250px;
     background-color: green;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .circle3 {
     border-radius: 50%;
     height: 400px;
     width: 400px;
     background-color: yellow;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .circle4 {
@@ -34,22 +50,30 @@
     height: 200px;
     width: 200px;
     background-color: pink;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .circle5 {
     border-radius: 50%;
     height: 275px;
     width: 275px;
     background-color: purple;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .circle6 {
     border-radius: 50%;
-    height: 400px;
-    width: 400px;
+    height: 175px;
+    width: 175px;
     background-color: grey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .circle7 {
     border-radius: 50%;
     height: 175px;
     width: 175px;
     background-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+ /*-------------------------------------------------------   Education Timeline from W3schools  */
