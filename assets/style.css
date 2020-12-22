@@ -17,18 +17,26 @@ body {
     color: #c6c6c6;
     font-family: "Baloo Chettan 2", cursive;
     padding: 0px 20px 20px 20px;
-    font-size: 450%;
+    font-size: 3em;
     margin: 0px 20px 20px 20px;
 }
 
+.heading2 {
+    font-weight: 300;
+    color: #c6c6c6;
+    font-family: "Baloo Chettan 2", cursive;
+    padding: 0px 20px 20px 20px;
+    font-size: 3em;
+    margin: 0px 20px 20px 20px;
+}
 .heading {
     font-weight: 300;
     color: #c6c6c6;
     font-family: "Baloo Chettan 2", cursive;
     padding: 0px 20px 20px 20px;
-    font-size: 300%;
+    font-size: 2.5em;
     margin: 20px 20px 20px 15px;
-    border-bottom: #c6c6c6 solid 5px;
+    border-bottom: #c6c6c6 solid 3px;
 }
 
 .line {
@@ -40,9 +48,7 @@ body {
 
  .circlesbox1 {
     width: 60%;
-    border: 3px solid #73AD21;
     padding: 5px;
-    background-color: white;
     box-sizing: border-box;
     transition: all 0.33s ease-out 0s;
 }
@@ -120,9 +126,7 @@ body {
  .circlesbox2 {
     margin: auto;
     width: 100%;
-    border: 3px solid #73AD21;
     padding: auto;
-    background-color: white;
     box-sizing: border-box;
 }
 
@@ -209,7 +213,7 @@ body{
 .main-timeline:before {
     content: "";
     display: block;
-    width: 2px;
+    width: 3px;
     height: 100%;
     background: #c6c6c6;
     margin: 0 auto;
@@ -283,7 +287,7 @@ body{
 .main-timeline .date-content:before {
     content: "";
     width: 36.5%;
-    height: 2px;
+    height: 3px;
     background: #c6c6c6;
     margin: auto 0;
     position: absolute;
@@ -295,7 +299,7 @@ body{
 .main-timeline .date-outer {
     width: 125px;
     height: 125px;
-    font-size: 16px;
+    font-size: 1.5em;
     text-align: center;
     margin: auto;
     z-index: 1
@@ -317,12 +321,12 @@ body{
 
 .main-timeline .date-outer:before {
     background: #fff;
-    border: 2px solid #232323;
+    border: 3px solid #232323;
     left: -6px
 }
 
 .main-timeline .date-outer:after {
-    border: 2px solid #c6c6c6;
+    border: 3px solid #c6c6c6;
     left: 6px
 }
 
@@ -343,26 +347,26 @@ body{
 }
 
 .main-timeline .month {
-    font-size: 18px;
+    font-size: 1em;
     font-weight: 700
 }
 
 .main-timeline .year {
     display: block;
-    font-size: 30px;
+    font-size: 1em;
     font-weight: 700;
     color: #232323;
-    line-height: 36px
+    line-height: 25px
 }
 
 .main-timeline .timeline-content {
     width: 50%;
-    padding: 20px 0 20px 50px;
+    padding: 0 0 20px 50px;
     float: right
 }
 
 .main-timeline .title {
-    font-size: 19px;
+    font-size: 1.5em;
     font-weight: 700;
     line-height: 24px;
     margin: 0 0 15px 0;
@@ -398,7 +402,7 @@ body{
         padding: 10px 0 10px 30px
     }
     .main-timeline .title {
-        font-size: 17px
+        font-size: 1.5em
     }
     .main-timeline .timeline:nth-child(2n) .timeline-content {
         padding: 10px 30px 10px 0
@@ -408,7 +412,7 @@ body{
 @media only screen and (max-width: 767px) {
     .main-timeline:before {
         margin: 0;
-        left: 7px
+        left: 20px
     }
     .main-timeline .timeline {
         margin-bottom: 20px
@@ -440,7 +444,7 @@ body{
         top: 30%
     }
     .main-timeline .year {
-        font-size: 24px
+        font-size: 0.75em;
     }
     .main-timeline .timeline-content,
     .main-timeline .timeline:nth-child(2n) .timeline-content {
@@ -453,8 +457,8 @@ body{
     }
 }
 /*-------------------------------------------------------   Activities and Interests  */
-p {
-    font: 1em;
+.activities {
+    padding: 0px 20px 0px 20px;
 }
 
 h3 {
@@ -466,6 +470,7 @@ h4 {
     color: #c6c6c6;
     align-items: center;
     text-align: center;
+    font-size: 1.5em;
 }
 
 .flex-container {
@@ -489,14 +494,9 @@ h4 {
 }
 
 .flex-icon {
-  font-size: 2em;
-  padding: 5px;
-  margin-top: 10px;
-  line-height: 150px;
-  color: white;
-  font-weight: bold;
-  font-size: 3em;
+  color: #c6c6c6;
   text-align: center;
+
 }
 .publication {
     padding: 0px 20px 0px 20px;
@@ -525,4 +525,17 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: white;
+}
+
+i {
+    font-size: 3em;
+}
+p {
+    align-content: left;
+    font-size: 1em;
+}
+
+.button {
+    width: 150px;
+    align-items: center;
 }
