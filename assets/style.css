@@ -8,7 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: "Baloo Chettan 2", cursive;
-    padding: 0px 50px 0px 50px;
+    padding: 0px 50px 50px 50px;
     align-content: center;
 }
 
@@ -44,6 +44,42 @@ body {
     border-bottom: 5px solid #c6c6c6;
     width: 100%;
 }
+.button {
+    width: 150px;
+    align-items: center;
+}
+
+a.fill-div {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+}
+i {
+    font-size: 3em;
+}
+
+p {
+    align-content: left;
+    font-size: 1em;
+}
+
+h2 {
+    color: #c6c6c6;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h3 {
+    color: #c6c6c6;
+    text-align: left;
+}
+
+h4 {
+    color: #c6c6c6;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5em;
+}
  /*-------------------------------------------------------   Top page circles  - big screens */
 
  .circlesbox1 {
@@ -57,7 +93,7 @@ body {
     border-radius: 50%;
     height: 600px;
     width: 600px;
-    background-color: blue;
+    background-color:#afe7ff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     overflow: visible;
     align-items: center;
@@ -66,59 +102,101 @@ body {
 
 .circle0 {
   border-radius: 50%;
-    height: 50px;
-    width: 50px;
-    background-color: lightblue;
+    height: 150px;
+    width: 150px;
+    background-color: #231e47;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s ease-out 0s;
+}
+.circle0:hover {
+    width: 350px;
+    height: 350px;
+}
+.content0 {
+    position: relative;
+    padding-top: 40%;
+    text-shadow:5px 5px 10px black;
 }
 
 .circle1 {
     border-radius: 50%;
-    height: 150px;
-    width: 150px;
-    background-color: orange;
+    height: 175px;
+    width: 175px;
+    background-color: #968fd0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s ease-out 0s;
+}
+
+.circle1:hover {
+    width: 200px;
+    height: 200px;
+}
+.circle1 .content1 {
+    position: relative;
+    padding-top: 20%;
+    text-shadow:5px 5px 10px #423987;
 }
 
 .circle2 {
     border-radius: 50%;
     height: 250px;
     width: 250px;
-    background-color: green;
+    background-color: #423987;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s ease-out 0s;
 }
-
+.circle2:hover {
+    width: 300px;
+    height: 300px;
+}
 .circle3 {
     border-radius: 50%;
     height: 400px;
     width: 400px;
-    background-color: yellow;
+    background-color: #003f5a;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s ease-out 0s;
+}
+.circle3:hover {
+    width: 450px;
+    height: 450px;
 }
 
 .circle4 {
     border-radius: 50%;
     height: 200px;
     width: 200px;
-    background-color: pink;
+    background-color: #0086c0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       transition: all 0.5s ease-out 0s;
 }
+
 
 .circle5 {
     border-radius: 50%;
-    height: 275px;
-    width: 275px;
-    background-color: purple;
+    height: 300px;
+    width: 300px;
+    background-color: #60cfff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       transition: all 0.5s ease-out 0s;
 }
-
+.circle5:hover {
+    width: 350px;
+    height: 350px;
+}
+.content5 {
+    position: relative;
+    padding-top: 25%;
+    text-shadow:5px 5px 10px #0086c0;
+}
  
 .circle6 {
     border-radius: 50%;
     height: 175px;
     width: 175px;
-    background-color: grey;
+    background-color:#231e47;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       transition: all 1s ease-out 0s;
 }
 
  /*-------------------------------------------------------   Top page circles  - small screens */
@@ -143,8 +221,8 @@ body {
 
 .circle10 {
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
+    height: 175px;
+    width: 175px;
     background-color: lightblue;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -159,32 +237,32 @@ body {
 
 .circle12 {
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
+    height: 125px;
+    width: 125px;
     background-color: green;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .circle13 {
     border-radius: 50%;
-    height: 40px;
-    width: 40px;
+    height: 95px;
+    width: 95px;
     background-color: yellow;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .circle14 {
     border-radius: 50%;
-    height: 20px;
-    width: 20px;
+    height: 125px;
+    width: 125px;
     background-color: pink;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .circle15 {
     border-radius: 50%;
-    height: 75px;
-    width: 75px;
+    height: 100px;
+    width: 100px;
     background-color: purple;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -201,11 +279,6 @@ body {
 
 
  /*-------------------------------------------------------   Education Timeline from W3schools  */
-body{
-    background-color: #f7f7f7;
-    margin-top:20px;
-}
-
 .main-timeline {
     position: relative
 }
@@ -461,18 +534,6 @@ body{
     padding: 0px 20px 0px 20px;
 }
 
-h3 {
-    color: #c6c6c6;
-    align-items: center;
-    text-align: left;
-}
-h4 {
-    color: #c6c6c6;
-    align-items: center;
-    text-align: center;
-    font-size: 1.5em;
-}
-
 .flex-container {
   /* We first create a flex layout context */
   display: flex;
@@ -502,7 +563,9 @@ h4 {
     padding: 0px 20px 0px 20px;
 }
 /*-------------------------------------------------------   Contactform, mainly from W3schools  */
-
+button {
+    padding: 50px;
+}
 input[type=text], select, textarea {
   width: 50%;
   padding: 12px;
@@ -525,17 +588,4 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: white;
-}
-
-i {
-    font-size: 3em;
-}
-p {
-    align-content: left;
-    font-size: 1em;
-}
-
-.button {
-    width: 150px;
-    align-items: center;
 }
