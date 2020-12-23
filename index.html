@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;600;700;800&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
@@ -15,41 +15,53 @@
 <body>
 <!--------------------------------------------------------   Top page circles  big screen -->
        <div class="section bigscreen d-none d-lg-block"> 
-        <div class="heading1 text-center" id="myself">Mariska  Snijdewind</div>
+        <div class="heading1 text-center" id="myself">Mariska Snijdewind</div>
                 <div class="circlesbox1 mx-auto">
                     <div class="position-relative bigcircle1 content-center">
-                        <div class="position-absolute top-20 start-0 circle1"><a href="#publication" class="fill-div content1"><h2>Publications <br>and<br>media</h2></a></div>
-                        <div class="position-absolute top-0 end-0 circle2"></div> 
-                        <div class="position-absolute bottom-0 end-0 circle3">
-                            <div class="position-absolute bottom-0 end-0 circle0"><a href="#contactform" class="fill-div content0"><h2>Contact</h2></a></div>  
+                        <div class="position-absolute top-20 start-0 circle1"><a href="#publication" class="fill-div content1"><h2>Publications <br>and<br>Media </h2></a> 
+                        </div>
+
+                        <div class="position-absolute top-0 end-0 circle2"><a href="#activities" class="fill-div content2"><h2>Activities <br>and<br>Interests</h2></a>
+                        </div> 
+
+                        <div class="position-absolute bottom-0 start-0 circle5"><a href="#education" class="fill-div content5"><h2>Education<br>and<br>Courses</h2></a>
+                        </div>
+
+                        <div class="position-absolute bottom-0 end-0 circle3"><a href="#activities" class="fill-div content3"><h2>Amsterdam, The Netherlands<br><br>MSc in Economic Psychology<br><br>Full Stack Software developer </h2></a>
+                            <div class="position-absolute bottom-0 start-0 circle0"><a href="#contactform" class="fill-div content0"><h2>Contact</h2></a>
+                            </div>  
                             <!---<div class="position-absolute bottom-0 end-0 circle6">grijs</div> -->
                         </div>
-                        <div class="position-absolute bottom-50 end-50 circle4"></a></div>
-                        <div class="position-absolute bottom-0 start-0 circle5"><a href="#education" class="fill-div content5"><h2>Education<br>and<br>Courses</h2></div></a>
+                        <div class="position-absolute bottom-50 end-50 circle4"></div>
                     </div>
                 </div>
             </div>
         </div>
 <!-------------------------------------------------------   Top page circles  small screen -->
         <div class="section smallscreen d-lg-none">
-            <div class="heading2 text-center" id="myself">Mariska</div>
-                <div class="circlesbox2 content-center">  
-                    <div class="position-relative bigcircle2 content-center"> 
-                        <div class="position-absolute top-20 start-0 circle11">
-                            <div class="position-absolute top-50 start-50 circle14"></div>
+            <div class="heading2 text-center" id="myself">Mariska Snijdewind</div>
+            <div class="circlesbox2 mx-auto">
+                    <div class="position-relative bigcircle2 content-center"> <div class="position-absolute bottom-0 start-0 circle15"><a href="#education" class="fill-div content15"><h6>Education<br>and<br>Work</h6></a>
                         </div>
-                        <div class="position-absolute top-0 end-0 circle12"></div> 
-                        <div class="position-absolute bottom-0 end-0 circle13">
-                            <div class="position-absolute bottom-0 start-50 circle10"></div>  
-                            <!-- <div class="position-absolute bottom-0 end-0 circle6">grij ss</div> -->
+                        <div class="position-absolute top-20 start-0 circle11"><a href="#publication" class="fill-div content11"><h6>Publications<br>and<br>media</h6></a><div class="position-absolute top-50 start-50 circle14"></div>
                         </div>
-                        
-                        <div class="position-absolute bottom-0 start-0 circle15"></div>
+
+                        <div class="position-absolute top-0 end-0 circle12"><a href="#activities" class="fill-div content12"><h6>Activities<br>and<br>Interests</h6></a>
+                        </div> 
+                       
+                        <div class="position-absolute bottom-0 start-50 circle13"><a href="#activities" class="fill-div content13"><h6>Amsterdam, The Netherlands<br><br>MSc in Economic Psychology<br><br>Full Stack Software developer</h6></a>
+                                                
+                            <div class="position-absolute bottom-0 start-0 circle10"><a href="#contactform" class="fill-div content10"><h6> Contact</h6></a>
+                            </div>  
+                            <!---<div class="position-absolute bottom-0 end-0 circle6">grijs</div> --> 
+                        </div>
                     </div>
                 </div>
             </div>
+</div>
 <!-------------------------------------------------------   Education Timeline from W3schools  -->
-    <div class="heading text-center" id="education"> Education and courses</div>
+    <div class="heading3 text-center d-none d-lg-block" id="education">Education and Work</div>
+    <div class="heading4 text-center d-lg-none" id="education">Education and Work</div></div>
         <div class="container main-timeline">
         <!-- start experience section-->
         <div class="timeline">
@@ -57,116 +69,120 @@
             <div class="date-content">
                 <div class="date-outer">
                     <span class="date">
-                            <span class="month">2 Years</span>
+                            <span class="month">Code Institute</span>
+                    <span class="year">2021</span>
+                    </span>
+                </div>
+            </div>
+            <div class="timeline-content">
+                <h5 class="title">Full Stack Software Development</h5>
+                <p class="description">
+                    During this course i was thought to use mark-up languages like HTML and CSS as well as programming languages as JaveScript and Python. These were implemented using tools like Materialize, Django, Flask.
+                </p>
+            </div>
+        </div>
+        <!-- end experience section-->
+
+        <!-- start experience section-->
+        <div class="timeline">
+            <div class="icon"></div>
+            <div class="date-content">
+                <div class="date-outer">
+                    <span class="date">
+                            <span class="month">CIHC</span>
+                    <span class="year">2019/2020</span>
+                    </span>
+                </div>
+            </div>
+            <div class="timeline-content">
+                <h5 class="title">Webmanager</h5>
+                <p class="description">
+                    I was editor and webmanager for a anti-discrimination foundation, befor i became webmanager for the Chinese Indonesian Heritge center (CIHC). Here i can make full use of my knowledge of HTML CSS as well as Wordpress.
+                </p>
+            </div>
+        </div>
+        <!-- end experience section-->
+
+        <!-- start experience section-->
+        <div class="timeline">
+            <div class="icon"></div>
+            <div class="date-content">
+                <div class="date-outer">
+                    <span class="date">
+                            <span class="month">VicarVision/HIS</span>
+                    <span class="year">2013/2016</span>
+                    </span>
+                </div>
+            </div>
+            <div class="timeline-content">
+                <h5 class="title">Research and development</h5>
+                <p class="description">
+                    During my time at VicarVision I first came in contact with Artificial Intelligence and it's the endless possibilities. During this time als my interest in technology grew, not just as an observer, but also as an contribitor.
+                </p>
+            </div>
+        </div>
+        <!-- end experience section-->
+
+        <!-- start experience section-->
+        <div class="timeline">
+            <div class="icon"></div>
+            <div class="date-content">
+                <div class="date-outer">
+                    <span class="date">
+                            <span class="month">UvT</span>
                     <span class="year">2013</span>
                     </span>
                 </div>
             </div>
             <div class="timeline-content">
-                <h5 class="title">Visual Art &amp; Design</h5>
+                <h5 class="title">Economic Psychology</h5>
                 <p class="description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit . Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie. 
+                    During my studies I leared the theories of economic human behavior and how to scientifically study this. Even though my Master thesis dealt with regret in Dutch migrant, regret is also a very important topic in Economic behaviors.
                 </p>
             </div>
         </div>
         <!-- end experience section-->
 
-        <!-- start experience section-->
-        <div class="timeline">
-            <div class="icon"></div>
-            <div class="date-content">
-                <div class="date-outer">
-                    <span class="date">
-                            <span class="month">1 Years</span>
-                    <span class="year">2015</span>
-                    </span>
-                </div>
-            </div>
-            <div class="timeline-content">
-                <h5 class="title">Product Designer</h5>
-                <p class="description">
-                    Lorem ipsum dolor sit amet, consectetur adi piscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.
-                </p>
-            </div>
-        </div>
-        <!-- end experience section-->
-
-        <!-- start experience section-->
-        <div class="timeline">
-            <div class="icon"></div>
-            <div class="date-content">
-                <div class="date-outer">
-                    <span class="date">
-                            <span class="month">2 Years</span>
-                    <span class="year">2016</span>
-                    </span>
-                </div>
-            </div>
-            <div class="timeline-content">
-                <h5 class="title">Web Designer</h5>
-                <p class="description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex  sit amet massa scelerisque scelerisq ue. A liquam  e rat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.
-                </p>
-            </div>
-        </div>
-        <!-- end experience section-->
-
-        <!-- start experience section-->
-        <div class="timeline">
-            <div class="icon"></div>
-            <div class="date-content">
-                <div class="date-outer">
-                    <span class="date">
-                            <span class="month">2 Years</span>
-                    <span class="year">2018</span>
-                    </span>
-                </div>
-            </div>
-            <div class="timeline-content">
-                <h5 class="title">Graphic Designer</h5>
-                <p class="description">
-                    Lorem ipsum dolor sit amet, consectetur ad ipiscing pat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrice s elit mo lestie.
-                </p>
-            </div>
-        </div>
-        <!-- end experience section-->
+      
   </div>
 <!-------------------------------------------------------   Activities and Interests -->
     <div class="section"> 
-        <div class="heading text-center" id="activities">Activities and Interests</div>
+         <div class="heading3 text-center d-none d-lg-block" id="activities">Activities and Interests</div>
+        <div class="heading4 text-center d-lg-none" id="activities">Activities and Interests</div>
         <div class="row justify-content-md-center activities">
             <div class="col">
                 <div class="flex-icon"><h4 class="psychology"><i class="large material-icons">psychology</i><br>Psychology</h4>
-                    <p>Menselijk gedrag is wat personen beweegt. </p>
+                    <p>Human behaviour is what moves people</p>
                 </div>
             </div>
             <div class="col">
-                <div class="flex-icon"><h4 class="cooking"><span class="large material-icons">food_bank</span><br>Home Cooking</h4>
-                     <p>Er gaat niets boven een thuis gemaakte maaltijd, behalve Groningen </p>
-                </div>
+                <div class="flex-icon"><h4 class="cooking"><i class="aicons"></i><span class="material-icons">computer</span><br>Technology</h4><p>Technology is what might move people</p>
+                </div> 
             </div>
             <div class="col">
                 <div class="flex-icon"><h4 class="traveling"><span class="material-icons">train</span><br>Traveling</h4></li>
-                    <p>Hoewel corona ons thuis laat blijven kan ik nog steeds genieten van de herinneringen</p>
+                    <p>This one is on hold for now</p>
                 </div>
             </div>
             <div class="col">
                 <div class="flex-icon"><h4 class="plants"><span class="material-icons">local_florist</span><br>Plants</h4></li>
-                    <p>Wanneer het weer het toelaat kan ik heerlijk tot rust komen door in de tuin te werken</p>
+                    <p>This one however has flourished</p>
                 </div>
             </div>
             <div class="col">
                 <div class="flex-icon"><h4 class="languages"><span class="material-icons">translate</span><br>Languages</h4></li>
-                     <p>Om mensen écht beter te leren kennen, moet je hun taal spreken.</p>
+                     <p>To get to know people you have to speak their language</p>
                 </div>
             </div>
         </div>
     <!-------------------------------------------------------   Publications and Media   -->
         <div class="section"></div>
-           <div class="heading text-center" id="publication">Publications and Media </div>
+        
+         <div class="heading3 text-center d-none d-lg-block" id="publication">Publications and Media</div>
+        <div class="heading4 text-center d-lg-none" id="publication">Publications and Media</div>
             <div class="row justify-content-center publication">
                 <div class="col text-center">
-                    <h3>Who do you want to be? Real-time faceswap</h3>
+                    <h3>Who do you want to be? Real-time faceswap </h3>
                     <p><a href="https://ieeexplore.ieee.org/document/7163172">T. M. den Uyl, H. E. Tasli, P. Ivan and M. Snijdewind, "Who do you want to be? Real-time face swap," 2015 11th IEEE International Conference and Workshops on Automatic Face and Gesture Recognition (FG), Ljubljana, 2015, pp. 1-1, doi: 10.1109/FG.2015.7163172. </a></p><br> 
                 </div>
             </div><div><p>&nbsp</p></div>
@@ -182,31 +198,32 @@
                     <h4>Production</h4><iframe width="280" height="157" src="https://www.youtube.com/embed/0vQdqyy96J0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div> 
-        </div> 
+        </div>  
 <!-------------------------------------------------------   Contact form  -->
-    <div class="section"></div>  
-    <div class="heading text-center" id="contactform">Contact </div>
-        
+    <div class="section contact"></div>  
+           
+         <div class="heading3 text-center d-none d-lg-block" id="contactform">Contact</div>
+        <div class="heading4 text-center d-lg-none" id="contactform">Contact</div>        
         <div class="contact">
             <form class="row mx-auto" action="mailto:mcfsnijdewind@gmail.com" method="POST" enctype="text/plain">
                 <div class="col-12 mx-auto">
-                    <label for="fname"><h4>Voornaam </h4></label>
-                    <input type="text" id="fname" name="firstname" placeholder="Je voornaam?">
+                    <label for="fname"><h4>First Name</h4></label>
+                    <input type="text" id="fname" name="firstname" placeholder="What's your first name?">
                 </div>
                 <div class="col-12">
-                    <label for="lname"> <h4>Achternaam </h4> </label>
-                    <input type="text" id="lname" name="lastname" placeholder="Je Achternaam?">
+                    <label for="lname"> <h4>Last Name</h4> </label>
+                    <input type="text" id="lname" name="lastname" placeholder="What's your last name?">
                 </div>
                 <div class="col-12">
-                    <label for="email"><h4>E-mailadres </h4></label>
-                    <input type="text" id="email" placeholder="Vul je e-mailadres in"><br>
-                    <small class="form-text text-muted">We delen met niemand je e-mailadres<br></small>
+                    <label for="email"><h4>Email address </h4></label>
+                    <input type="text" id="email" placeholder="Please fill in your email address"><br>
+                    <small class="form-text text-muted">We won't share it with anyone<br></small>
                 </div>
                 <div class="col-12">
-                    <label for="subject"><h4>Onderwerp</h4></label>
-                    <input id="subject" name="subject" placeholder="Zeg het maar..."></input> 
+                    <label for="subject"><h4>Subject</h4></label>
+                    <input id="subject" name="subject" placeholder="You tell me..."></input> 
                 </div>
-                <input class="button mx-auto" type="submit" value="Verstuur">
+                <input class="button mx-auto" type="submit" value="Send">
             </form>
         </div>
     </div>

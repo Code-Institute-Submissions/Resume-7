@@ -1,5 +1,5 @@
 body, html {
-  height: 100%;
+  height: 100%;;
 }
 
 body {
@@ -8,56 +8,58 @@ body {
     justify-content: center;
     align-items: center;
     font-family: "Baloo Chettan 2", cursive;
-    padding: 0px 50px 50px 50px;
+    padding: 0px 5vw 5vw 5vw;
     align-content: center;
 }
+/*-------------------------------------------------------   Basic style settings */
 
+
+/*-------------------------------------------------------   Headings */
+
+/*----------------------------------------  Heading for big screens */
 .heading1 {
     font-weight: 350;
     color: #c6c6c6;
     font-family: "Baloo Chettan 2", cursive;
     padding: 0px 20px 20px 20px;
-    font-size: 3em;
+    font-size: 5em;
     margin: 0px 20px 20px 20px;
 }
-
+/*-----------------------------------------  Responsive heading for small screens */
 .heading2 {
-    font-weight: 300;
+    font-weight: 350;
+    color: #c6c6c6;
+    font-family: "Baloo Chettan 2", cursive;
+    padding: 0px 20px 20px 20px;
+    font-size: 10vw;
+    margin: 0px 20px 20px 20px;
+}
+/*------------------------------------------   Heading for big screens */
+.heading3 {
+    font-weight: 350;
     color: #c6c6c6;
     font-family: "Baloo Chettan 2", cursive;
     padding: 0px 20px 20px 20px;
     font-size: 3em;
-    margin: 0px 20px 20px 20px;
+    margin: 20px 20px 20px 15px;
+    border-bottom: #c6c6c6 solid 3px;
 }
-.heading {
-    font-weight: 300;
+/*------------------------------------------   Responsive heading for small screens */
+.heading4 {
+    font-weight: 350;
     color: #c6c6c6;
     font-family: "Baloo Chettan 2", cursive;
     padding: 0px 20px 20px 20px;
-    font-size: 2.5em;
+    font-size: 6vw;
     margin: 20px 20px 20px 15px;
     border-bottom: #c6c6c6 solid 3px;
 }
 
-.line {
-    padding-top: 10px;
-    border-bottom: 5px solid #c6c6c6;
-    width: 100%;
-}
-.button {
-    width: 150px;
-    align-items: center;
-}
-
-a.fill-div {
-    display: block;
-    width: 100%;
-    text-decoration: none;
-}
+/*-------------------------------------------------------   Responsive heading for small screens */
 i {
     font-size: 3em;
 }
-
+/*-------------------------------------------------------   Text style settings, h1 and h5 are still available*/
 p {
     align-content: left;
     font-size: 1em;
@@ -67,6 +69,7 @@ h2 {
     color: #c6c6c6;
     font-size: 1.5em;
     text-align: center;
+    font-weight: 600;
 }
 
 h3 {
@@ -80,7 +83,42 @@ h4 {
     text-align: center;
     font-size: 1.5em;
 }
- /*-------------------------------------------------------   Top page circles  - big screens */
+h6 {
+    color: #c6c6c6;
+    align-items: center;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 600;
+}
+/*-------------------------------------------------------  Extra style settings */
+.publication {
+    padding: 0px 20px 0px 20px;
+}
+
+
+.line {
+    padding-top: 10px;
+    border-bottom: 5px solid #c6c6c6;
+    width: 100%;
+}
+
+.button {
+    width: 150px;
+    align-items: center;
+    padding: 50px;
+    margin: 5vw;
+}
+
+a.fill-div {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+}
+
+.section {
+    margin: 15px;
+}
+ /*-------------------------------------------------------   Top page circles for big screens */
 
  .circlesbox1 {
     width: 60%;
@@ -98,20 +136,23 @@ h4 {
     overflow: visible;
     align-items: center;
     margin: auto;
+    transition: all 0.5s ease-out 0s;
 }
 
 .circle0 {
-  border-radius: 50%;
+    border-radius: 50%;
     height: 150px;
     width: 150px;
     background-color: #231e47;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: all 0.5s ease-out 0s;
 }
+
 .circle0:hover {
-    width: 350px;
-    height: 350px;
+    width: 200px;
+    height: 200px;
 }
+
 .content0 {
     position: relative;
     padding-top: 40%;
@@ -131,9 +172,10 @@ h4 {
     width: 200px;
     height: 200px;
 }
+
 .circle1 .content1 {
     position: relative;
-    padding-top: 20%;
+    padding-top: 21%;
     text-shadow:5px 5px 10px #423987;
 }
 
@@ -145,10 +187,18 @@ h4 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: all 0.5s ease-out 0s;
 }
+
 .circle2:hover {
     width: 300px;
     height: 300px;
 }
+
+.circle2 .content2 {
+    position: relative;
+    padding-top: 21%;
+    text-shadow:5px 5px 10px black;
+}
+
 .circle3 {
     border-radius: 50%;
     height: 400px;
@@ -157,36 +207,46 @@ h4 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: all 0.5s ease-out 0s;
 }
+
 .circle3:hover {
     width: 450px;
     height: 450px;
 }
 
+.circle3 .content3 {
+    position: relative;
+    padding-top: 21%;
+    text-shadow:5px 5px 10px black;
+}
+
 .circle4 {
+    background-image: url("../assets/images/pasfoto.PNG");
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
     border-radius: 50%;
     height: 200px;
     width: 200px;
-    background-color: #0086c0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-       transition: all 0.5s ease-out 0s;
+    transition: all 0.5s ease-out 0s;
 }
-
 
 .circle5 {
     border-radius: 50%;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     background-color: #60cfff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-       transition: all 0.5s ease-out 0s;
+    transition: all 0.5s ease-out 0s;
 }
+
 .circle5:hover {
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
 }
+
 .content5 {
     position: relative;
-    padding-top: 25%;
+    padding-top: 31%;
     text-shadow:5px 5px 10px #0086c0;
 }
  
@@ -196,89 +256,175 @@ h4 {
     width: 175px;
     background-color:#231e47;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-       transition: all 1s ease-out 0s;
+    transition: all 1s ease-out 0s;
 }
 
- /*-------------------------------------------------------   Top page circles  - small screens */
+.circle6:hover {
+    width: 450px;
+    height: 450px;
+}
+
+.circle6 .content6 {
+    position: relative;
+    padding-top: 21%;
+    text-shadow:5px 5px 10px black;
+}
+
+ /*-------------------------------------------------------   Top page circles for small screens */
 
  .circlesbox2 {
     margin: auto;
     width: 100%;
     padding: auto;
     box-sizing: border-box;
+    transition: all 0.33s ease-out 0s;
 }
 
 .bigcircle2 {
     border-radius: 50%;
-    height: 250px;
-    width: 250px;
-    background-color: blue;
+    height: 350px;
+    width: 350px;
+    background-color: #afe7ff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     overflow: visible;
     align-items: center;
     margin: auto;
+    transition: all 0.5s ease-out 0s;
 }
 
 .circle10 {
     border-radius: 50%;
-    height: 175px;
-    width: 175px;
-    background-color: lightblue;
+    height: 75px;
+    width: 75px;
+    background-color: #231e47;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s ease-out 0s;
+}
+
+.circle10:hover {
+    width: 150px;
+    height: 159px;
+}
+
+.content10 {
+    position: relative;
+    padding-top: 40%;
+    text-shadow:5px 5px 10px black;
 }
 
 .circle11 {
     border-radius: 50%;
-    height: 150px;
-    width: 150px;
-    background-color: orange;
+    height: 125px;
+    width: 125px;
+    background-color: #968fd0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s ease-out 0s;
+}
+
+.circle11:hover {
+    width: 175px;
+    height: 175px;
+}
+
+.content11 {
+    position: relative;
+    padding-top: 21%;
+    text-shadow:5px 5px 10px #423987;
 }
 
 .circle12 {
     border-radius: 50%;
-    height: 125px;
-    width: 125px;
-    background-color: green;
+    height: 150px;
+    width: 150px;
+    background-color:#423987;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s ease-out 0s;
+}
+
+.circle12:hover {
+    width: 200px;
+    height: 200px;
+}
+
+.content12 {
+    position: relative;
+    padding-top: 30%;
+    text-shadow:5px 5px 10px #231e47;
 }
 
 .circle13 {
     border-radius: 50%;
-    height: 95px;
-    width: 95px;
-    background-color: yellow;
+    height: 250px;
+    width: 250px;
+    background-color: #003f5a;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s ease-out 0s;
+}
+
+/*
+.circle13:hover {
+    width: 200px;
+    height: 200px;
+}
+*/
+.content13 {
+    position: relative;
+    padding-top: 25%;
+    text-shadow:5px 5px 10px black;
 }
 
 .circle14 {
+    background-image: url("../assets/images/pasfoto.PNG");
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
     border-radius: 50%;
-    height: 125px;
-    width: 125px;
-    background-color: pink;
+    height: 150px;
+    width: 150px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s ease-out 0s;
 }
 
 .circle15 {
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    background-color: purple;
+    height: 175px;
+    width: 175px;
+    background-color:  #60cfff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s ease-out 0s;
 }
 
+.circle15:hover {
+    width: 225px;
+    height: 225px;
+}
+
+.content15 {
+    position: relative;
+    padding-top: 31%;
+    text-shadow: 5px 5px 10px #0086c0;
+}
  
 .circle16 {
     border-radius: 50%;
     height: 100px;
     width: 100px;
-    background-color: grey;
+    background-color: #231e47;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 1s ease-out 0s;
 }
 
+.circle6:hover {
+    width: 150px;
+    height: 150px;
+}
 
+.circle6 .content6 {
+    position: relative;
+    padding-top: 21%;
+    text-shadow:5px 5px 10px black;
+}
 
- /*-------------------------------------------------------   Education Timeline from W3schools  */
+ /*-------------------------------------------------------   Education Timeline from Dey Dey see README for more info */
 .main-timeline {
     position: relative
 }
@@ -415,18 +561,18 @@ h4 {
     width: 100%;
     margin: auto;
     position: absolute;
-    top: 27%;
+    top: 20%;
     left: 0
 }
 
 .main-timeline .month {
-    font-size: 1em;
-    font-weight: 700
+    font-size: 0.7em;
+    font-weight: 600
 }
 
 .main-timeline .year {
     display: block;
-    font-size: 1em;
+    font-size: 0.7em;
     font-weight: 700;
     color: #232323;
     line-height: 25px
@@ -559,13 +705,8 @@ h4 {
   text-align: center;
 
 }
-.publication {
-    padding: 0px 20px 0px 20px;
-}
-/*-------------------------------------------------------   Contactform, mainly from W3schools  */
-button {
-    padding: 50px;
-}
+/*-------------------------------------------------------   Contactform  */
+
 input[type=text], select, textarea {
   width: 50%;
   padding: 12px;
@@ -581,11 +722,11 @@ input[type=submit] {
   background-color: rgba(0,79,113,1);
   color: ccc;
   padding: 12px 20px;
-  border: solid white;
+  border: solid #c6c6c6;
   border-radius: 4px;
   cursor: pointer;
 }
 
 input[type=submit]:hover {
-  background-color: white;
+  background-color: #c6c6c6;
 }
