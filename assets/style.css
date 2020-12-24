@@ -62,7 +62,14 @@ i {
 /*-------------------------------------------------------   Text style settings, h1 and h5 are still available*/
 p {
     align-content: left;
-    font-size: 1em;
+    font-size: 1.25vw;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 1200px) {
+  p {
+     font-size: 16px;
+  }
 }
 
 h2 {
@@ -311,7 +318,25 @@ a.fill-div {
     padding-top: 40%;
     text-shadow:5px 5px 10px black;
 }
+.circle10a {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: #231e47;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s ease-out 0s;
+}
 
+.circle10a:hover {
+    width: 150px;
+    height: 159px;
+}
+
+.content10a {
+    position: relative;
+    padding-top: 40%;
+    text-shadow:5px 5px 10px black;
+}
 .circle11 {
     border-radius: 50%;
     height: 125px;
