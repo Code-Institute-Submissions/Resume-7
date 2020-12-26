@@ -62,11 +62,11 @@ i {
 /*-------------------------------------------------------   Text style settings, h1 and h5 are still available*/
 p {
     align-content: left;
-    font-size: 1.25vw;
+    font-size: 2.5vw;
     font-weight: 400;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 992px) {
   p {
      font-size: 16px;
   }
@@ -102,6 +102,15 @@ h6 {
     padding: 0px 20px 0px 20px;
 }
 
+.abstract a {
+    color: #c6c6c6;
+    text-align: left;
+}
+.abstract a {
+    text-decoration: none;
+    color: #c6c6c6;
+    text-align: left;
+}
 
 .line {
     padding-top: 10px;
@@ -114,6 +123,7 @@ h6 {
     align-items: center;
     padding: 50px;
     margin: 5vw;
+    color: #c6c6c6;
 }
 
 a.fill-div {
@@ -124,6 +134,16 @@ a.fill-div {
 
 .section {
     margin: 15px;
+}
+
+.contact {
+    padding: 0px 20px 0px 20px;
+}
+
+.facebook {
+    align-content: right;
+    text-decoration: none;
+    color: #c6c6c6;
 }
  /*-------------------------------------------------------   Top page circles for big screens */
 
@@ -220,9 +240,9 @@ a.fill-div {
     height: 450px;
 }
 
-.circle3 .content3 {
+.content3 {
     position: relative;
-    padding-top: 21%;
+    padding-top: 15%;
     text-shadow:5px 5px 10px black;
 }
 
@@ -329,7 +349,7 @@ a.fill-div {
 
 .circle10a:hover {
     width: 150px;
-    height: 159px;
+    height: 150px;
 }
 
 .content10a {
@@ -524,7 +544,7 @@ a.fill-div {
 .main-timeline .date-content {
     width: 50%;
     float: left;
-    margin-top: 22px;
+    margin-top: 15px;
     position: relative
 }
 
@@ -586,7 +606,7 @@ a.fill-div {
     width: 100%;
     margin: auto;
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 0
 }
 
@@ -637,19 +657,19 @@ a.fill-div {
 
 @media only screen and (max-width: 991px) {
     .main-timeline .date-content {
-        margin-top: 35px
+        margin-top: 25px
     }
     .main-timeline .date-content:before {
         width: 22.5%
     }
     .main-timeline .timeline-content {
-        padding: 10px 0 10px 30px
+        padding: 5px 0 10px 30px
     }
     .main-timeline .title {
         font-size: 1.5em
     }
     .main-timeline .timeline:nth-child(2n) .timeline-content {
-        padding: 10px 30px 10px 0
+        padding: 5px 30px 10px 0
     }
 }
 
@@ -685,7 +705,7 @@ a.fill-div {
         height: 110px
     }
     .main-timeline .date {
-        top: 30%
+        top: 25%
     }
     .main-timeline .year {
         font-size: 0.75em;
@@ -694,11 +714,24 @@ a.fill-div {
     .main-timeline .timeline:nth-child(2n) .timeline-content {
         width: 95%;
         text-align: center;
-        padding: 10px 0
+        padding: 5px 0
     }
     .main-timeline .title {
-        margin-bottom: 10px
+        margin-bottom: 15px
     }
+}
+/*-------------------------------------------------------   Publication and Media  */
+.hide {
+    display: none;
+}
+.media {
+    padding: 10px;
+}
+
+.media:hover + .hide {
+  display: block;
+  color: #c6c6c6;
+  padding: 5px;
 }
 /*-------------------------------------------------------   Activities and Interests  */
 .activities {
@@ -730,10 +763,12 @@ a.fill-div {
   text-align: center;
 
 }
+
+
 /*-------------------------------------------------------   Contactform  */
 
 input[type=text], select, textarea {
-  width: 50%;
+  width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -755,3 +790,4 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #c6c6c6;
 }
+

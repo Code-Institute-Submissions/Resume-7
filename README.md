@@ -44,5 +44,5 @@ The timeline was made by someone else: This bootstrap snippet, bs4 my experience
 <br>
 
 ## 5. Still to add?
-By the time all is appoved by Code Institute, it will be easier to add more funtionalities using JavaScript or add API's by external companies.
-/* */
+By the time all is appoved by Code Institute, it will be easier to add more funtionalities using JavaScript or add API's by external companies like Mailchimp etc or actually receive the mail. 
+
